@@ -28,6 +28,7 @@ You might be thinking what's the point adding in this project motion sensor?
 Well even though you can make it without motion sensor, but that will keep playing the sound again and again. And on the other hand if you add the motion sensor it will only play the sound when someone around it.
 
 
+
 <b>Background: </b>
 
 <b>Know when to water and how much water your plants need</b>
@@ -79,6 +80,10 @@ You can find the files with voiceover in voiceover folder
 Next we’ll upload the Arduino sketch (interatvie.flower.ino) to the device. 
 Connect your Arduino to your computer using a USB cable and make sure the right board and serial port are selected 
 (see the appropriate “Getting Started” section for your operating system: http://arduino.cc/en/Guide/HomePage).
-Open the “Blossom_module.ino” file with your Arduino software and upload it to the board. Some LEDs should blink on the Arduino board, and after a few moments, you should see “Done Uploading” in the console area of the Arduino software.
+Open the “interactive_flower.ino” file with your Arduino software and upload it to the board. Some LEDs should blink on the Arduino board, and after a few moments, you should see “Done Uploading” in the console area of the Arduino software.
+
+I've uploaded two arduino sketches.
+One separated for siol moisture sensor and one separated for light intensity.
+It's just in case you are interested only in one from this modules. If you want to put them together open new sketch in arduino then copy moisture sketch in one tab and light intensity in other then upload :) arduino will read it as one project. 
 
 Your sketch should now be running!
